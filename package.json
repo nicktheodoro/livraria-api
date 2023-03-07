@@ -1,0 +1,25 @@
+{
+  "name": "curso-api",
+  "version": "1.0.0",
+  "description": "Um projeto simples simulando um curso",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Theodoro",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "pg": "^8.9.0",
+    "sequelize": "^6.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  }
+}
